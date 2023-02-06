@@ -1,0 +1,85 @@
+.container {
+    width: 46rem;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    margin-bottom: 1.5rem;
+}
+
+.taskCreate strong  {
+    color: var(--blue-500);
+    padding-right: 0.5rem;
+}
+
+.taskCreate span {
+    background-color: var(--gray-500);
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    color: var(--white);
+    font-size: 0.75rem;
+}
+
+.taskCompleted strong {
+    color: var(--purple-500);
+    padding-right: 0.5rem;
+}
+
+.taskCompleted span {
+    background-color: var(--gray-500);
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    color: var(--white);
+    font-size: 0.75rem;
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 1rem;
+
+    border-radius: 8px;
+    background-color: var(--gray-500);
+
+    height: 4.5rem;
+    margin-bottom: 0.75rem;
+}
+.task button{
+    background: transparent;
+    border: 0;
+    color: var(--gray-400);
+    cursor: pointer;
+    
+    display: flex;
+    align-items: center;
+    
+    border-radius: 2px;
+}
+
+
+.task button:hover{
+    color: var(--red-500 );
+}
+
+.containerEmpty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    padding-top: 1rem;
+}
+.containerEmpty strong {
+    font-size: 1rem;
+}
+.containerEmpty img{
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: -25px;
+}
+
+.container input {
+    height: 3.375rem;
+    width: 638px;
+    background: var(--gray-500);
+    border: none;
+    border-radius: 8px;
+    padding-left: 1rem;
+    margin-right: 8px;
+}
+
+.container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 3.375rem;
+    width: 90px;
+    border: none;
+    border-radius: 8px;
+
+    background: var(--blue-700);
+    color: var(--white);
+    font-weight: bold;
+}
+
+.container button svg {
+    margin-left: 0.5rem;
+}
